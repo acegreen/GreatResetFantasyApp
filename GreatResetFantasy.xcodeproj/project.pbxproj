@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23A30C3B2F51DBAD00F8CF1A /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 23A30B912F51B60000F8CF1A /* Supabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		230DBDDA2F50697000DD8793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 230DBDC22F50696F00DD8793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230DBDC92F50696F00DD8793;
+			remoteInfo = GreatResetFantasy;
+		};
+		230DBDE42F50697000DD8793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 230DBDC22F50696F00DD8793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230DBDC92F50696F00DD8793;
+			remoteInfo = GreatResetFantasy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23A30B872F51B53900F8CF1A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		230DBDCA2F50696F00DD8793 /* GreatResetFantasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreatResetFantasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		230DBDD92F50697000DD8793 /* GreatResetFantasyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreatResetFantasyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		230DBDE32F50697000DD8793 /* GreatResetFantasyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreatResetFantasyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A30B932F51B60100F8CF1A /* Supabase/Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Supabase/Secrets.xcconfig; sourceTree = "<group>"; };
+		23A30B952F51B60300F8CF1A /* docs/Supabase_credentials_setup.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = docs/Supabase_credentials_setup.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2308518C2F54806300697DEE /* Exceptions for "GreatResetFantasy" folder in "GreatResetFantasy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Bundle/Info.plist,
+			);
+			target = 230DBDC92F50696F00DD8793 /* GreatResetFantasy */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		230DBDCC2F50696F00DD8793 /* GreatResetFantasy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2308518C2F54806300697DEE /* Exceptions for "GreatResetFantasy" folder in "GreatResetFantasy" target */,
+			);
+			path = GreatResetFantasy;
+			sourceTree = "<group>";
+		};
+		230DBDDC2F50697000DD8793 /* GreatResetFantasyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GreatResetFantasyTests;
+			sourceTree = "<group>";
+		};
+		230DBDE62F50697000DD8793 /* GreatResetFantasyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GreatResetFantasyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		230DBDC72F50696F00DD8793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A30C3B2F51DBAD00F8CF1A /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230DBDD62F50697000DD8793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230DBDE02F50697000DD8793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		230DBDC12F50696F00DD8793 = {
+			isa = PBXGroup;
+			children = (
+				23A30B932F51B60100F8CF1A /* Supabase/Secrets.xcconfig */,
+				23A30B952F51B60300F8CF1A /* docs/Supabase_credentials_setup.xcconfig */,
+				230DBDCC2F50696F00DD8793 /* GreatResetFantasy */,
+				230DBDDC2F50697000DD8793 /* GreatResetFantasyTests */,
+				230DBDE62F50697000DD8793 /* GreatResetFantasyUITests */,
+				230DBDCB2F50696F00DD8793 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		230DBDCB2F50696F00DD8793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				230DBDCA2F50696F00DD8793 /* GreatResetFantasy.app */,
+				230DBDD92F50697000DD8793 /* GreatResetFantasyTests.xctest */,
+				230DBDE32F50697000DD8793 /* GreatResetFantasyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		230DBDC92F50696F00DD8793 /* GreatResetFantasy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230DBDED2F50697100DD8793 /* Build configuration list for PBXNativeTarget "GreatResetFantasy" */;
+			buildPhases = (
+				23A30B942F51B60200F8CF1A /* Generate Secrets */,
+				230DBDC62F50696F00DD8793 /* Sources */,
+				230DBDC72F50696F00DD8793 /* Frameworks */,
+				230DBDC82F50696F00DD8793 /* Resources */,
+				23A30B872F51B53900F8CF1A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				230DBDCC2F50696F00DD8793 /* GreatResetFantasy */,
+			);
+			name = GreatResetFantasy;
+			packageProductDependencies = (
+				23A30B912F51B60000F8CF1A /* Supabase */,
+			);
+			productName = GreatResetFantasy;
+			productReference = 230DBDCA2F50696F00DD8793 /* GreatResetFantasy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		230DBDD82F50697000DD8793 /* GreatResetFantasyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230DBDF02F50697100DD8793 /* Build configuration list for PBXNativeTarget "GreatResetFantasyTests" */;
+			buildPhases = (
+				230DBDD52F50697000DD8793 /* Sources */,
+				230DBDD62F50697000DD8793 /* Frameworks */,
+				230DBDD72F50697000DD8793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				230DBDDB2F50697000DD8793 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				230DBDDC2F50697000DD8793 /* GreatResetFantasyTests */,
+			);
+			name = GreatResetFantasyTests;
+			packageProductDependencies = (
+			);
+			productName = GreatResetFantasyTests;
+			productReference = 230DBDD92F50697000DD8793 /* GreatResetFantasyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		230DBDE22F50697000DD8793 /* GreatResetFantasyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230DBDF32F50697100DD8793 /* Build configuration list for PBXNativeTarget "GreatResetFantasyUITests" */;
+			buildPhases = (
+				230DBDDF2F50697000DD8793 /* Sources */,
+				230DBDE02F50697000DD8793 /* Frameworks */,
+				230DBDE12F50697000DD8793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				230DBDE52F50697000DD8793 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				230DBDE62F50697000DD8793 /* GreatResetFantasyUITests */,
+			);
+			name = GreatResetFantasyUITests;
+			packageProductDependencies = (
+			);
+			productName = GreatResetFantasyUITests;
+			productReference = 230DBDE32F50697000DD8793 /* GreatResetFantasyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		230DBDC22F50696F00DD8793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					230DBDC92F50696F00DD8793 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					230DBDD82F50697000DD8793 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 230DBDC92F50696F00DD8793;
+					};
+					230DBDE22F50697000DD8793 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 230DBDC92F50696F00DD8793;
+					};
+				};
+			};
+			buildConfigurationList = 230DBDC52F50696F00DD8793 /* Build configuration list for PBXProject "GreatResetFantasy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 230DBDC12F50696F00DD8793;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				23A30B902F51B60000F8CF1A /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 230DBDCB2F50696F00DD8793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				230DBDC92F50696F00DD8793 /* GreatResetFantasy */,
+				230DBDD82F50697000DD8793 /* GreatResetFantasyTests */,
+				230DBDE22F50697000DD8793 /* GreatResetFantasyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		230DBDC82F50696F00DD8793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230DBDD72F50697000DD8793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230DBDE12F50697000DD8793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23A30B942F51B60200F8CF1A /* Generate Secrets */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Supabase/Secrets.xcconfig",
+			);
+			name = "Generate Secrets";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${SRCROOT}/GreatResetFantasy/Generated/Secrets.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "CONFIG=\"${SRCROOT}/Supabase/Secrets.xcconfig\"\nOUTPUT=\"${SRCROOT}/GreatResetFantasy/Generated/Secrets.generated.swift\"\nmkdir -p \"$(dirname \"$OUTPUT\")\"\n[ -f \"$CONFIG\" ] || { echo 'error: Supabase/Secrets.xcconfig not found'; exit 1; }\nSUPABASE_URL=$(grep '^SUPABASE_URL' \"$CONFIG\" | cut -d= -f2- | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')\nSUPABASE_KEY=$(grep '^SUPABASE_KEY' \"$CONFIG\" | cut -d= -f2- | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')\n[ -n \"$SUPABASE_URL\" ] && [ -n \"$SUPABASE_KEY\" ] || { echo 'error: SUPABASE_URL and SUPABASE_KEY required'; exit 1; }\necho \"// Auto-generated from Secrets.xcconfig\" > \"$OUTPUT\"\necho \"enum Secrets {\" >> \"$OUTPUT\"\necho \"    static let supabaseURL = \\\"$SUPABASE_URL\\\"\" >> \"$OUTPUT\"\necho \"    static let supabaseKey = \\\"$SUPABASE_KEY\\\"\" >> \"$OUTPUT\"\necho \"}\" >> \"$OUTPUT\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		230DBDC62F50696F00DD8793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230DBDD52F50697000DD8793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230DBDDF2F50697000DD8793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		230DBDDB2F50697000DD8793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 230DBDC92F50696F00DD8793 /* GreatResetFantasy */;
+			targetProxy = 230DBDDA2F50697000DD8793 /* PBXContainerItemProxy */;
+		};
+		230DBDE52F50697000DD8793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 230DBDC92F50696F00DD8793 /* GreatResetFantasy */;
+			targetProxy = 230DBDE42F50697000DD8793 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		230DBDEB2F50697100DD8793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		230DBDEC2F50697100DD8793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		230DBDEE2F50697100DD8793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A30B932F51B60100F8CF1A /* Supabase/Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GreatResetFantasy/Bundle/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allows user to export simulator and trends images";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.GreatResetFantasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		230DBDEF2F50697100DD8793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A30B932F51B60100F8CF1A /* Supabase/Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GreatResetFantasy/Bundle/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allows user to export simulator and trends images";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.GreatResetFantasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		230DBDF12F50697100DD8793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.GreatResetFantasyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreatResetFantasy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GreatResetFantasy";
+			};
+			name = Debug;
+		};
+		230DBDF22F50697100DD8793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.GreatResetFantasyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreatResetFantasy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GreatResetFantasy";
+			};
+			name = Release;
+		};
+		230DBDF42F50697100DD8793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.GreatResetFantasyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreatResetFantasy;
+			};
+			name = Debug;
+		};
+		230DBDF52F50697100DD8793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.GreatResetFantasyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreatResetFantasy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		230DBDC52F50696F00DD8793 /* Build configuration list for PBXProject "GreatResetFantasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230DBDEB2F50697100DD8793 /* Debug */,
+				230DBDEC2F50697100DD8793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230DBDED2F50697100DD8793 /* Build configuration list for PBXNativeTarget "GreatResetFantasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230DBDEE2F50697100DD8793 /* Debug */,
+				230DBDEF2F50697100DD8793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230DBDF02F50697100DD8793 /* Build configuration list for PBXNativeTarget "GreatResetFantasyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230DBDF12F50697100DD8793 /* Debug */,
+				230DBDF22F50697100DD8793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230DBDF32F50697100DD8793 /* Build configuration list for PBXNativeTarget "GreatResetFantasyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230DBDF42F50697100DD8793 /* Debug */,
+				230DBDF52F50697100DD8793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23A30B902F51B60000F8CF1A /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23A30B912F51B60000F8CF1A /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23A30B902F51B60000F8CF1A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 230DBDC22F50696F00DD8793 /* Project object */;
+}
